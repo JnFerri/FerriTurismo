@@ -1,0 +1,227 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background:linear-gradient(#121640 80%, #e43397)
+}
+
+/* estilo pagina home */
+
+.banner{
+    width: 100%;
+    margin: 0;
+}
+
+.caixa-entrecontato{
+    text-align: center;
+    background-color: #4c0bd1;
+    width: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.contato-principal li{
+    display: inline-block;
+    position: relative;
+    padding: 0 10% 0 0;
+}
+
+
+.caixa-entrecontato p{
+    color:#e43397 ;
+    font-size: 24px;
+    margin: 0 0 0 20%;
+    font-weight: bold;
+    width: 100%;
+}
+.botao-contato{
+    background-color: #e43397 ;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+} 
+.botao-contato:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px black;
+}
+
+.titulos-principal{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1em 30px;
+    color: #e43397;
+}
+
+
+.destinos-america, .destinos-europa{
+    text-align: center;
+    width: auto;
+    
+}
+
+ .destinos-america li, .destinos-europa li{
+     width: 20%;
+     display: inline-block;
+     border:2px solid #4c0bd1;
+     margin: 0 1.5%;
+     border-radius: 30px;
+     background-color: white;
+     box-shadow: 5px 5px 5px black;
+     background-color: #111111;
+     color: white;
+
+ }
+
+ .destinos-america li:hover{
+    transform: scale(1.05);
+    border-color: #00c4cc;
+ }
+ .destinos-europa li:hover{
+     transform: scale(1.1);
+     border-color: #00c4cc;
+     
+
+ }
+
+ .imagem-destino{
+     width: 100%;
+     border-radius: 30px;
+}
+.destinos-america p, .destinos-europa p{
+        font-size: 14px;
+        padding: 5px;
+        margin: 5px 0 0 0;
+    }
+
+.local{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    
+
+}
+
+.caixa-destinos{
+    padding: 30px 0;
+}
+
+.caixa-infoviajem{
+    background-color: black;
+    text-align: center;
+}
+.caixa-infoviajem li{
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.n-viajem, .n-clientes{
+    font-size: 48px;
+} 
+.caixa-comentarios{
+    width: auto;
+    background-color: #111111 ;
+    border-radius: 40px;
+    border: 2px #4c0bd1 solid;
+    box-shadow: 5px 5px 5px #4c0bd1 ;
+    padding: 20px;
+    margin: 1em 10%;
+}
+
+.titulo-comentarios{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1em 30px;
+    color: #e43397;
+    text-align: center;
+}
+.img-cliente{
+    width: 80px;
+    padding: 1em;
+}
+.comentarios-lista{
+    align-items: center;
+    display: inline;
+}
+.comentarios-lista li{
+    display: inline-block;
+    margin: 0 1.5%;
+    width: 30% ;
+    vertical-align: top;
+    background-color: #e43397;
+    border-radius: 20px;
+    text-align: justify;
+     
+}
+    .nome-cliente{
+        color: black;
+        padding: 1em;
+        margin: 0 5px;
+    }
+
+    .comentario-cliente{
+        padding: 1em;
+    }
+
+    /*estilo pagina sobre nos */
+
+
+    .paragrafos-sobre{
+        width: auto;
+        margin: 1em 10%;
+        background-color: #111111;
+        padding: 30px;
+        color: #e43397;
+        text-align: justify;
+        border-radius: 20px;
+    }
+
+    .img-equipe{
+        width: 80%;
+        margin: 0 10%;
+        border-radius: 30px;
+    }
+
+    .lista-equipe{
+        background-color: #111111;
+        width: auto;
+        margin: 0 10%;
+        padding: 30px;
+        text-align: center;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px black;
+    }
+.caixa-equipe{
+    margin: 40px 0;
+}
+    .lista-equipe li{
+        width: 25% ;
+        background-color: #e43397;
+        color: black;
+        display: inline-block;
+        margin: 20px 1.66%;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px black;
+        
+    }
+
+    .lista-equipe p{
+        margin: 10px 0;
+    }
+
+    .lista-equipe img{
+        width: 100%;
+        border-radius: 30px 30px 0 0;
+    }
+    
+    .nome-equipe{
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+
+    
